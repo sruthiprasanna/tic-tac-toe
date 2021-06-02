@@ -18,4 +18,6 @@ The aim of this project is to build Tic Tac Toe game using HTML, Less CSS, Vanil
     - run: npm run test
             -to run unit test cases
             
+## Launch index.html in the browser to start the game
+            
  
