@@ -1,0 +1,91 @@
+body {
+  background: #c8ff00;
+}
+body header {
+  text-align: center;
+  font-size: 30px;
+  color: maroon;
+  transition: all 0.3s ease-in-out;
+}
+body h3 {
+  color: royalblue;
+  text-align: center;
+}
+body .container {
+  position: absolute;
+  left: 35%;
+}
+body .player-detail {
+  margin-top: 10%;
+  font-size: 30px;
+}
+body .player-detail section {
+  display: flex;
+}
+body .player-detail section span {
+  display: block;
+  height: 50px;
+  width: 138px;
+  margin: 2px;
+  text-align: center;
+  border-radius: 5px;
+  background: #f8f5f5;
+}
+body .player-detail .playerX {
+  color: crimson;
+}
+body .player-detail .playerO {
+  color: green;
+}
+body .game-board {
+  margin-top: 10%;
+}
+body .game-board section {
+  display: flex;
+  margin-bottom: 1px;
+}
+body .game-board section span {
+  display: block;
+  height: 90px;
+  width: 90px;
+  margin: 2px;
+  color: #654dee;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 5px;
+  background: #f8f5f5;
+}
+body .replay-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+body .replay-section .btnReplay button {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border: none;
+  background: #4d21e9;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+body .X-in-box {
+  font-size: 30px;
+  color: crimson;
+}
+body .O-in-box {
+  font-size: 30px;
+  color: green;
+}
+body .animate-Player {
+  font-size: larger;
+  font-variant: small-caps;
+  border: dotted;
+}
+body .message-box h3 {
+  color: indigo;
+}

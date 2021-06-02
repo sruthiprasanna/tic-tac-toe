@@ -11,6 +11,8 @@ The aim of this project is to build Tic Tac Toe game using HTML, Less CSS, Vanil
     - name: Use Node.js
     - with:
         node-version: 14.17.0
+    - run: npm run build 
+            -to compile script.js to dist/bundle.js
     - run: npm run buildcss 
             -to compile style.less to style.css
     - run: npm run test

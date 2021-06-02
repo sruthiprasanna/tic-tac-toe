@@ -1,0 +1,22 @@
+{
+    "name": "tic-tac-toe",
+    "version": "1.0.0",
+    "dependencies": {
+        "less": "^4.1.1"
+    },
+    "scripts": {
+        "buildcss": "lessc style.less style.css",
+        "test": "jest --env=jsdom",
+        "build": "webpack ./script.js --output-filename=bundle.js --mode=production"
+    },
+    "devDependencies": {
+        "jest": "^27.0.3",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    },
+    "jest": {
+        "setupFiles": [
+            "./setup-jest.js"
+        ]
+    }
+}

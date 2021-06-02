@@ -1,0 +1,120 @@
+@crimson-color: crimson;
+@green-color:  green;
+
+body{
+    background:rgb(200, 255, 0);
+
+    header{
+        text-align:center;
+        font-size: 30px;
+        color: maroon;
+        transition: all 0.3s ease-in-out;
+    }
+
+    h3{
+        color: royalblue;
+        text-align: center;
+    }
+
+    .container{
+        position: absolute;
+        left: 35%;
+    }
+  
+    .player-detail{
+        margin-top: 10%;
+        font-size: 30px;  
+
+        section{
+            display: flex;
+
+            span{
+                display: block;
+                height: 50px;
+                width: 138px;
+                margin: 2px;
+                text-align: center;
+                border-radius: 5px;
+                background: rgb(248, 245, 245);
+            }
+        }
+
+        .playerX{
+            color: @crimson-color;
+        }
+
+        .playerO{
+            color: @green-color;
+        }
+    }
+  
+    .game-board{
+        margin-top: 10%;
+
+          section{
+                display: flex;
+                margin-bottom: 1px;
+
+                span{
+                    display: block;
+                    height: 90px;
+                    width: 90px;
+                    margin: 2px;
+                    color: #654dee;
+                    font-size: 40px;
+                    line-height: 80px;
+                    text-align: center;
+                    border-radius: 5px;
+                    background: rgb(248, 245, 245);
+                }
+          }
+    }
+
+    .replay-section{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        .btnReplay{
+            button{
+                font-size: 18px;
+                font-weight: 500;
+                padding: 8px 20px;
+                border: none;
+                background: #4d21e9;
+                border-radius: 5px;
+                color: #fff;
+                outline: none;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+
+    .X-in-box{
+        font-size: 30px;
+        color: @crimson-color;
+    }
+
+    .O-in-box{
+        font-size: 30px;
+        color: @green-color;
+    }
+
+    .animate-Player{
+        font-size: larger;
+        font-variant: small-caps;
+        border: dotted;
+    }
+
+    .message-box{
+        h3{ 
+            color: indigo;
+        }
+    }
+    
+  }
+
+  
+
+  
